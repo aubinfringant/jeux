@@ -25,7 +25,7 @@ class JeuJustePrix:
             except ValueError:
                 print("Nombre invalide.")
                 
-    def ia_choix(self, bas, haut):
+    def ia_choix(self, bas, haut): #aide avec IA
         if self.ia_level == 1:
             # IA moyenne
             return bas + (haut - bas) // 4

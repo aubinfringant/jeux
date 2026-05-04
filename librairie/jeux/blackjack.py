@@ -31,7 +31,7 @@ class JeuBlackJack:
         return total
 
     # IA selon le niveau
-    def ia_joue(self, main_ia):
+    def ia_joue(self, main_ia): #aide IA
         while True:
             total = self.valeur_main(main_ia)
 
